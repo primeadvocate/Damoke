@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>Damoke Engineering</title>
+    <link rel="stylesheet" href="damoke.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="public/damoke-icon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+   
+    <header class="w-full h-screen relative">
+
+        
+        <video class="w-full h-full absolute -z-10 object-cover" src="public/construction.mp4" autoplay loop muted></video>
+        
+
+        <div class="navbar w-full h-20 flex items-center justify-between px-[6vw]">
+            <div class="logo w-14 h-11 p-1">
+                <img src="public/logo-removebg.png">
+            </div>
+            <div class="links max-md:hidden">
+                <ul class="links-list flex gap-x-4 md:gap-x-8 font-semibold text-white">
+                    <li class="btn relative p-2"><a href="#About-Us">About Us</a></li>
+                    <li class="btn relative p-2"><a href="#Services">Services</a></li>
+                    <li class="btn relative p-2"><a href="#Projects">Projects</a></li>
+                    <li class="btn relative p-2 bg-orange-500 rounded-lg hover:text-white"><a href="#Contact-Us">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="toggle-btn text-xl md:hidden cursor-pointer">
+                <i class="fa-solid fa-bars" style="color: var(--orange );"></i> 
+            </div>
+
+            <div class="dropdown-menu absolute right-14 top-14 w-[25vw] max-sm:w-[40vw] bg-white/10 backdrop-blur-md rounded-lg text-center md:hidden overflow-hidden h-0">
+                <ul class="links-list font-semibold text-white p-8">
+
+                    <li class="btn relative mb-4"><a href="#About-Us">About Us</a></li>
+                    <li class="btn relative my-4"><a href="#Services">Services</a></li>
+                    <li class="btn relative my-4"><a href="#Projects">Projects</a></li>
+                    <li class="btn relative my-4 bg-orange-500 rounded-md hover:text-white p-1"><a href="#Contact-Us">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-text w-full text-center mt-[60vh]">
+            <h1 class="text-[7vw] text-white">Painting your Ideas a Reality <span class="text-[var(--orange)]">...</span></h1>
+        </div>
+
+   </header> 
+
+    
+       
+
+    <div class="services-container overflow-hidden h-screen w-full mt-[10rem] py-20 flex flex-col" id="Services">
+            <div class="services-header mx-auto design">
+                <h1 class="text-[3rem] font-bold text-center">OUR SERVICES</h1>
+            </div>
+            
+            <div class="services-wrapper mt-[2rem] flex gap-6 h-[60vh] items-center overflow-auto">
+
+
+
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg ml-6 ">
+                    <div class="image-content">
+                        <img src="public/architect-icon.png" alt="Architecture section icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>ARCHITECTURE</h1>
+                        <p>We help clients achieve dreams through people-focused architecture, using our expertise and digital tools to unlock project potential, resulting in meaningful, efficient, and beautiful designs. 
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/propertysales2-icon.png" alt="Property Sales Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>PROPERTY SALES</h1>
+                        <p>Whether you're buying or selling, our real estate experts will guide you through the process, ensuring a smooth transaction.
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/propertymanagement-icon.png" alt="Property Management Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>PROPERTY MANAGEMENT</h1>
+                        <p>We offer comprehensive property management services, including tenant screening, rent collection, and maintenance.
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/investmentconsultation-icon.png" alt="Investment Consultation Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>INVESTMENT CONSULTATION</h1>
+                        <p>Maximize your real estate investments with our expert advice on market trends and investment strategies.
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/civilengineering-icon.png" alt="Civil Engineering Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>CIVIL ENGINEERING</h1>
+                        <p>We offer comprehensive civil engineering services, including infrastructure design, construction management, contracting, consultancy, and maintenance for infrastructure and water projects.
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/icons8-greek-pillar-100.png" alt="Structural Engineering Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>STRUCTURAL ENGINEERING</h1>
+                        <p>Our structural engineering expertise ensures the safety and stability of your buildings and infrastructure.
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/constructionmanagement-icon.png" alt="Construction Management Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>CONSTRUCTION MANAGEMENT</h1>
+                        <p>Construction management streamlines design and construction by coordinating resources. It enhances project value compared to traditional methods, optimizing delivery.</p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/engineer-worker.png" alt="Mechanical and Electrical Engineering Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>MECHANICAL AND ELECTRICAL ENGINEERING</h1>
+                        <p>We offer advanced mechanical and electrical engineering solutions for efficient systems.
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/environment-icon.png" alt="Environmenal Engineering Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>ENVIRONMENTAL ENGINEERING</h1>
+                        <p>Protect the environment with our sustainable engineering practices and green solutions.
+                        </p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg">
+                    <div class="image-content">
+                        <img src="public/researcg-icon.png" alt="Advanced Technology and Research Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>ADVANCED TECHNOLOGY AND RESEARCH</h1>
+                        <p>We collaborate with experts to create innovative, cost-effective solutions for complex building design and infrastructure challenges, prioritizing insight and integration.</p>
+                    </div>
+                </div>
+                <div class="services min-w-[20rem] h-[23rem] flex flex-col items-center shadow-gray-500 shadow-lg rounded-lg mr-6">
+                    <div class="image-content">
+                        <img src="public/consultadvisory-icon.png" alt="Consulting and Advisory Icon">
+                    </div>
+                    <div class="mt-10 services-text text-center">
+                        <h1>CONSULTING AND ADVISORY</h1>
+                        <p>Trust our engineering consulting for thorough services in planning, risk management, productivity, quality, and sustainable process optimization.
+                        </p>
+                    </div>
+                </div>
+            
+            </div>
+    </div>
+
+    
+    <div class="portfolio-container mt-[10rem] h-screen py-20 flex flex-col items-center" id="Projects">
+        <div class="portfolio-header text-center relative design">
+            <h1 class="text-[3rem] font-bold">PROJECTS</h1>
+        </div>
+
+        <div class="swiper mySwiper mt-[2rem] h-[90vh] w-[70vw] flex flex-col justify-center mx-auto">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px] rounded-lg border-transparent outline-none">
+                    <img class="absolute object-cover top-0 left-0 w-full h-full" src="public/project1.JPG">
+                </div>
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px] rounded-lg border-transparent outline-none">
+                    <img class="absolute object-cover top-0 left-0 w-full h-full -z-10" src="public/project2.JPG">
+                </div>
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px] rounded-lg border-transparent outline-none">
+                    <img class="absolute object-cover top-0 left-0 w-full h-full -z-10" src="public/project3.JPG">
+                </div>
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px] rounded-lg border-transparent outline-none">
+                    <img class="absolute object-cover top-0 left-0 w-full h-full -z-10" src="public/project5.JPG">
+                </div>
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px] rounded-lg border-transparent outline-none">
+                    <img class="absolute object-cover top-0 left-0 w-full h-full -z-10" src="public/project6.JPG">
+                </div>
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px] rounded-lg border-transparent outline-none">
+                    <img class="absolute object-cover top-0 left-0 w-full h-full -z-10" src="public/project8 Ogun 2.jpg">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+               
+        </div>
+
+    </div>
+
+
+    <div class="about-us-container flex flex-col items-center justify-center mt-[10rem] h-screen py-20 px-6" id="About-Us">
+
+        <div class="about-us-header text-center mx-auto relative design">
+            <h1 class="text-[3rem] font-bold">ABOUT US</h1>
+        </div>
+
+        <div class="about-us-wrapper h-full mt-[2rem] mb-[1rem] py-2 justify-items-center gap-x-4">
+
+            <div class="about-us-image shadow-2xl ml-2 hover:bg-black bg-opacity-10">
+                <img src="public/about-us wallpaper2.jpeg">
+            </div>
+            
+            <div class="about-us-text my-auto flex flex-col gap-y-4 w-[21em]">
+                <div class="who-we-are">
+                    <div class="who-we-are-header">
+                        <h1>WHO WE ARE</h1>
+                    </div>
+                    <div class="who-we-are-text text-[15px] text-justify">
+                        <p>At Damoke Group, we are a dynamic and innovative company that blends the expertise of architects, civil engineers, electrical engineers, mechanical engineers, quantity surveyors, land surveyors, urban planners, project managers, and others to offer comprehensive solutions. Our company is founded on the principles of integrity, transparency, and customer satisfaction from visioning and strategy through detailed design, implementation and capacity building, and value realization and sustainability. We were founded to be both humane and excellent, and we interact with our customers and partners, employing imagination, technology, and rigor to help them bring their ideas to life.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="our-mission">
+                    <div class="our-mission-header">
+                        <h1>OUR MISSION</h1>
+                    </div>
+                    <div class="our-mission-text text-[15px] text-justify">
+                        <p>Our mission is to deliver outstanding real estate and engineering services by leveraging cutting-edge technology, industry expertise, and a client-centric approach with innovative and cost-effective engineering solutions that adhere to industry best practices by utilizing our devoted and motivated staff. We strive to make the complex simple and the extraordinary standard.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="why-choose-us-container mt-[10rem] flex flex-col items-center py-20">
+        <div class="why-choose-us-header mx-auto design inline-block relative">
+            <h1 class="text-[3rem] font-bold text-center">WHY CHOOSE US</h1>
+        </div>
+        <div class="why-choose-us-wrapper w-[80dvw] mt-[2rem] mx-auto gap-8">
+            <div class="why-choose-us flex flex-col items-center rounded-lg shadow-lg shadow-slate-800  p-4">
+                <div class="why-choose-us-img">
+                    <img src="public/expertise2.png">
+                </div>
+                <div class="why-choose-us-text text-center text-balance text-sm my-auto">
+                    <h1 class="text-2xl font-medium">Expertise</h1>
+                    <p>Our team comprises highly skilled professionals with years of experience in real estate and engineering.</p>
+                </div>
+            </div>
+            <div class="why-choose-us flex flex-col items-center rounded-lg shadow-lg shadow-slate-800 p-4">
+                <div class="why-choose-us-img">
+                    <img src="public/innovation2.png">
+                </div>
+                <div class="why-choose-us-text text-center text-balance text-sm my-auto">
+                    <h1 class="text-2xl font-medium">Innovation</h1>
+                    <p>We embrace the latest technology and methodologies to stay ahead in the industry.
+                    </p>
+                </div>
+            </div>
+            <div class="why-choose-us flex flex-col items-center rounded-lg shadow-lg shadow-slate-800 p-4">
+                <div class="why-choose-us-img">
+                    <img src="public/customer-focus.png">
+                </div>
+                <div class="why-choose-us-text text-center text-balance text-sm my-auto">
+                    <h1 class="text-2xl font-medium">Customer Focus</h1>
+                    <p>Your satisfaction is our priority. We listen, understand, and deliver solutions tailored to your needs.
+                    </p>
+                </div>
+            </div>
+            <div class="why-choose-us flex flex-col items-center rounded-lg shadow-lg shadow-slate-800 p-4">
+                <div class="why-choose-us-img">
+                    <img src="public/quality-assurance.png">
+                </div>
+                <div class="why-choose-us-text text-center text-balance text-sm my-auto">
+                    <h1 class="text-2xl font-medium">Quality Assurance</h1>
+                    <p>We are committed to delivering the highest quality results, meeting deadlines, and exceeding expectations.
+                    </p>
+                </div>
+            </div>
+            <div class="why-choose-us flex flex-col items-center rounded-lg shadow-lg shadow-slate-800 p-4">
+                <div class="why-choose-us-img">
+                    <img src="public/transparency.png">
+                </div>
+                <div class="why-choose-us-text text-center text-balance text-sm my-auto">
+                    <h1 class="text-2xl font-medium">Transparency</h1>
+                    <p>We believe in open communication and honest collaboration with our clients.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-us-container h-auto flex flex-col items-center py-20 mt-[10rem] gap-y-[10rem]" id="Contact-Us">
+        
+            <div class="contact-us-wrapper flex flex-col justify-center items-center w-[90%] h-auto">
+                <div class="contact-us-text p-8">
+                    <h1 class="text-[3em] font-medium mb-[0.5em] text-[#f8f8f8]">We are only an email away...</h1>
+                    <p class="text-[1.5em] font-thin italic text-[#dedada]">Book a consultation with us today.</p>
+                </div>
+    
+                <div class="contact-us-form p-8 w-[60%] flex flex-col justify-center">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col gap-y-8" id="myForm">
+                        <input type="hidden" name="access_key" value="e9ddef4c-6c7c-4c02-aa12-7240680aef16">
+
+                        <input type="email" name="email Address" id="email" placeholder="Email*" class="contact-input border-b-2 border-[#f8f8f8] p-3 bg-transparent text-white">
+                        <input type="text" name="subject" id="text" placeholder="Subject" class="contact-input border-b-2 border-[#f8f8f8] p-3 bg-transparent text-white">
+                        <textarea name="message" id="textarea" placeholder="Message..." class="border h-[10em] bg-transparent p-4 text-white"></textarea>
+                        <button type="submit" class="bg-[#fe5900] text-white rounded-xl py-2 hover:scale-105 duration-300">Send Us A Message</button>
+                    </form>
+                </div>
+            </div>
+       
+
+        <div class="footer text-gray-200 flex flex-col items-center justify-center w-[90%]">
+
+            <div class="sectioned-footer flex">
+                <div class="About w-[33.3%] px-4">
+                    <h1 class="text-lg font-extrabold mb-2 text-[var(--orange)]">We Are Here to Serve You</h1>
+                    <p class="text-sm">Ready to embark on your real estate journey or engineering project with us? Get in touch today for personalized consultation and expert guidance. Our team is here to answer your inquiries and provide the support you need.
+                    </p>
+                </div>
+        
+                <div class="contact-social w-[33.3%] px-4">
+                    <div class="contact-social-title mb-2 mr-[4.6rem] text-center">
+                        <h1 class="text-lg font-extrabold text-[var(--orange)]">Reach Out to Us</h1>
+                    </div>
+                    <div class="contact-social-wrapper flex flex-col gap-y-4 items-center">
+                        <div class="social-icon flex gap-x-10">
+                            <div class="Facebook">
+                                <a href="https://www.facebook.com/profile.php?id=100063603046961" target= "_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook text-[2rem] hover:scale-110" style="color: var(--orange);"></i></a>
+                            </div>
+                            <div class="Instagram">
+                                <a href="https://www.instagram.com/damoke.group" target= "_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram text-[2rem] hover:scale-110" style="color: var(--orange);"></i></a>
+                            </div>
+                            <div class="Whatsapp">
+                                <a href="https://wa.me/2347035434560?text=Hello,%20i%20came%20here%20from%20your%20website." target= "_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp text-[2rem] hover:scale-110" style="color: var(--orange);"></i></a>
+                            </div>
+                        </div>
+                
+                        <div class="Contact-Us flex flex-col gap-y-4">
+                            <div class="email flex gap-2 items-center">
+                                <i class="fa-solid fa-envelope text-[1rem]" style="color: var(--orange);"></i>
+                                <p class="text-sm">damoke.engineering@gmail.com</p>
+                            </div>
+                            <div class="phone flex gap-2 items-center">
+                                <i class="fa-solid fa-phone text-[1rem]" style="color: var(--orange);"></i>
+                                <p class="text-sm">+2347035434560</p>
+                            </div>
+                            <div class="phone2 flex gap-2 items-center">
+                                <i class="fa-solid fa-phone text-[1rem]" style="color: var(--orange);"></i>
+                                <p class="text-sm">+2348089742478</p>
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-address w-[33.3%] flex flex-col px-4 gap-y-2">
+                    <div class="address-title">
+                        <h1 class="text-lg font-extrabold text-[var(--orange)]">Our Locations</h1>
+                    </div>
+                    <div class="address1">
+                        <h1 class="font-serif font-bold mb-2">Lagos</h1>
+                        <div class="flex gap-2">
+                            <i class="fa-solid fa-location-dot text-[1rem] mt-[2px]" style="color: var(--orange);"></i>
+                            <p class="text-sm">Main Office address: 12, Ola akinpelu street, Alimosho, Lagos.</p>
+                        </div>
+                    </div>
+                    <div class="address2">
+                        <h1 class="font-serif font-bold mb-2">Ibadan</h1>
+                        <div class="flex gap-2">
+                            <i class="fa-solid fa-location-dot text-[1rem] mt-[2px]" style="color: var(--orange);"></i>
+                            <p class="text-sm">Opposite Bovas filling station, Alegongo shopping complex, Akobo-ojurin Road, Ibadan, Oyo state.</p>
+                        </div>
+                    </div>
+                    <div class="address3">
+                        <h1 class="font-serif font-bold mb-2">Osogbo</h1>
+                        <div class="flex gap-2">
+                            <i class="fa-solid fa-location-dot text-[1rem] mt-[2px]" style="color: var(--orange);"></i>
+                            <p class="text-sm">17, Oshuntokun Avenue, Dada Estate, Osogbo, Osun State.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="flex mt-[5rem]">
+                <div class="disclaimer font-mono text-sm w-[60%] mr-auto">
+                    <p><span class="font-extrabold text-red-500">Disclaimer:</span> Damoke Group is committed to providing accurate information on this website. However, we cannot guarantee the accuracy, completeness, or timeliness of the information provided. The content on this website is for informational purposes only and should not be construed as professional advice. Please contact us directly for personalized assistance and consultation.</p>
+                </div>
+                <div class="company-name w-[30%]">
+                    <h1><span class="font-extrabold text-[var(--orange)] font-sans">DAMOKE ENGINEERING</span> <br> Copyright &COPY;2024 All rights reserved.</h1>
+                </div>
+        
+            </div>
+    
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="damoke.js"></script>
+</body>
+</html>
