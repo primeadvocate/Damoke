@@ -56,6 +56,7 @@ header {
     color: var(--orange);
 }
 
+
 .portfolio img {
     transition: transform 0.5s linear;
 }
@@ -178,6 +179,24 @@ header {
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     grid-template-rows: 600px;
     justify-content: center;
+}
+
+@media not all and (min-width: 768px) {
+    .about-us-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-wrapper .about-us-image {
+        width: 80%;
+        margin-bottom: 5rem;
+        margin-inline: auto;
+    }
+
+    .about-us-wrapper .about-us-text {
+        width: 80%;
+        height: 100%;
+    }
 }
 
 
