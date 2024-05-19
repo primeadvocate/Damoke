@@ -32,7 +32,7 @@ html, body {
 
 
 header {
-    background: linear-gradient(to top, rgba(7, 15, 43, 0.5) 0%, rgba(0, 0, 0, 0.6) 100%), url(public/lines.png);
+    background: linear-gradient(to top, rgba(7, 15, 43, 0.5) 0%, rgba(0, 0, 0, 0.6) 100%), url('public/lines.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,10 +110,14 @@ header {
 }
 
 .services-container {
-    background-image: url(public/damoke.jpg);
+    background: url('public/damoke.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 
 .services {
@@ -169,7 +173,7 @@ header {
 }
 
 .portfolio-container {
-    background-image: linear-gradient(62deg, rgba(251, 172, 126, 0.1) 0%, rgba(247, 207, 104, 0.1) 100%), url(public/dot2.png);
+    background-image: linear-gradient(62deg, rgba(251, 172, 126, 0.1) 0%, rgba(247, 207, 104, 0.1) 100%), url('public/dot2.png');
     background-position: center;
     background-size: cover;
 }
@@ -224,7 +228,7 @@ header {
 }
 
 .why-choose-us-container {
-    background: linear-gradient(rgba(0,12,123,0.5), rgba(0,0,0,0.1)), url(public/photo.jpg);
+    background: linear-gradient(rgba(0,12,123,0.5), rgba(0,0,0,0.1)), url('public/photo.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -263,12 +267,13 @@ header {
 }
 
 .contact-us-container {
-    background: linear-gradient(to bottom, rgba(10, 5, 106, 0.7) 99.9%, rgba(0, 0, 0, 0)), url(public/services-background2.jpg);
+    background: linear-gradient(to bottom, rgba(10, 5, 106, 0.7) 99.9%, rgba(0, 0, 0, 0)), url('public/services-background2.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
     background-attachment: fixed;
     object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 .contact-us-text h1, .address-title h1 {
