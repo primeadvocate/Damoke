@@ -110,7 +110,7 @@ header {
 }
 
 .services-container {
-    background: url(public/mock\ 2.jpg);
+    background: url('public/mock\ 2.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -156,13 +156,7 @@ header {
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
-    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0005);
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    object-fit: fill; 
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0005); */
 }
 
 .swiper .swiper-button-next, .swiper .swiper-button-prev {
