@@ -116,8 +116,8 @@ header {
 }
 
 .services {
-    backdrop-filter: blur(8px);
-    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .services-header h1 {
