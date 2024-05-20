@@ -112,9 +112,7 @@ header {
 .services-container {
     background-image: url('public/damoke.jpg');
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    -webkit-background-size: cover;
 }
 
 .services {
