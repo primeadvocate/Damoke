@@ -116,8 +116,7 @@ header {
 }
 
 .services {
-    backdrop-filter: blur(12px);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .services-header h1 {
@@ -153,8 +152,6 @@ header {
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
-    /* -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0005); */
 }
 
 .swiper .swiper-button-next, .swiper .swiper-button-prev {
