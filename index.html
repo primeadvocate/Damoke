@@ -36,10 +36,15 @@
         <video class="w-full h-full absolute -z-10 object-cover" src="public/construction.mp4" autoplay loop muted playsinline disablePictureInPicture></video>
         
 
-        <div class="navbar w-full h-20 flex items-center justify-between px-[6vw]">
-            <div class="logo w-14 h-11 p-1">
-                <img src="public/logo-removebg.png">
+        <div class="navbar w-full h-32 flex items-center justify-between px-[6vw]">
+            <div class="logo p-1 flex items-center">
+                <img class="w-[3rem] md:w-[4rem] lg:w-[5rem] xl:w-[6rem]" src="public/logo-removebg.png">
+
+                <div class="logo-text text-xl lg:text-2xl font-[800] text-[var(--orange)] font-mono">
+                    <p>DAMOKE ENGINEERING<sup class="text-xl">&reg;</sup></p>
+                </div>
             </div>
+            
             <div class="links max-md:hidden">
                 <ul class="links-list flex gap-x-4 md:gap-x-8 font-semibold text-white">
                     <li class="btn relative p-2"><a href="#About-Us">About Us</a></li>
@@ -72,7 +77,7 @@
     
        
 
-    <div class="services-container min-h-[50vh] mt-[10rem] py-20 flex flex-col" id="Services">
+    <div class="services-container min-h-[80vh] py-20 flex flex-col" id="Services">
             <div class="services-header mx-auto design">
                 <h1 class="max-sm:text-[1.7rem] text-[3rem] font-bold text-center">OUR SERVICES</h1>
             </div>
@@ -193,31 +198,31 @@
     </div>
 
     
-    <div class="portfolio-container mt-[10rem] py-20 flex flex-col items-center" id="Projects">
+    <div class="portfolio-container py-20 flex flex-col items-center" id="Projects">
         <div class="portfolio-header text-center relative design">
             <h1 class="max-sm:text-[1.7rem] text-[3rem] font-bold">PROJECTS</h1>
         </div>
 
         <div class="swiper mySwiper min-h-[70vh] w-[70vw] max-sm:w-[70vw] flex flex-col justify-center">
 
-            <div class="swiper-wrapper pt-[30px]">
-                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px]">
-                    <img class="w-full h-full" src="public/project1.JPG">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[450px] w-[350px] p-[20px]">
+                    <img class="w-full h-full saturate-200 rounded-lg" src="public/project1.JPG">
                 </div>
-                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px]">
-                    <img class="w-full h-full" src="public/project2.JPG">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[450px] w-[350px] p-[20px]">
+                    <img class="w-full h-full saturate-200 rounded-lg" src="public/project2.JPG">
                 </div>
-                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px]">
-                    <img class="w-full h-full" src="public/project3.JPG">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[450px] w-[350px] p-[20px]">
+                    <img class="w-full h-full saturate-200 rounded-lg" src="public/project3.JPG">
                 </div>
-                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px]">
-                    <img class="w-full h-full" src="public/project5.JPG">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[450px] w-[350px] p-[20px]">
+                    <img class="w-full h-full saturate-200 rounded-lg" src="public/project5.JPG">
                 </div>
-                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px]">
-                    <img class="w-full h-full" src="public/project6.JPG">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[450px] w-[350px] p-[20px]">
+                    <img class="w-full h-full saturate-200 rounded-lg" src="public/project6.JPG">
                 </div>
-                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[400px] w-[300px]">
-                    <img class="w-full h-full" src="public/project8 Ogun 2.jpg">
+                <div class="swiper-slide portfolio relative flex items-center justify-center overflow-hidden h-[450px] w-[350px] p-[20px]">
+                    <img class="w-full h-full saturate-200 rounded-lg" src="public/project8 Ogun 2.jpg">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -229,7 +234,7 @@
     </div>
 
 
-    <div class="about-us-container flex flex-col items-center justify-center mt-[10rem] h-auto py-20" id="About-Us">
+    <div class="about-us-container flex flex-col items-center justify-center h-auto py-20" id="About-Us">
 
         <div class="about-us-header text-center mx-auto relative design">
             <h1 class="max-sm:text-[1.7rem] text-[3rem] font-bold">ABOUT US</h1>
@@ -266,7 +271,7 @@
     </div>
 
 
-    <div class="why-choose-us-container mt-[10rem] flex flex-col items-center py-20">
+    <div class="why-choose-us-container flex flex-col items-center py-20">
         <div class="why-choose-us-header mx-auto design inline-block relative">
             <h1 class="max-sm:text-[1.7rem] text-[3rem] font-bold text-center">WHY CHOOSE US</h1>
         </div>
@@ -323,7 +328,7 @@
         </div>
     </div>
 
-    <div class="contact-us-container h-auto flex flex-col items-center pt-20 pb-10 mt-[10rem] gap-y-[10rem]" id="Contact-Us">
+    <div class="contact-us-container h-auto flex flex-col items-center pt-20 pb-10 gap-y-[10rem]" id="Contact-Us">
         
             <div class="contact-us-wrapper flex flex-col justify-center items-center w-[90%] h-auto">
                 <div class="contact-us-text p-8">
@@ -420,7 +425,7 @@
                     <p><span class="font-extrabold text-red-500">Disclaimer:</span> Damoke Group is committed to providing accurate information on this website. However, we cannot guarantee the accuracy, completeness, or timeliness of the information provided. The content on this website is for informational purposes only and should not be construed as professional advice. Please contact us directly for personalized assistance and consultation.</p>
                 </div>
                 <div class="company-name w-[30%] max-md:w-[80%]">
-                    <h1><span class="font-extrabold text-[var(--orange)] font-sans">DAMOKE ENGINEERING</span> <br> Copyright &COPY;2024 All rights reserved.</h1>
+                    <h1><span class="font-extrabold text-[var(--orange)] font-sans">DAMOKE GROUP</span> <br> Copyright &COPY;2024 All rights reserved.</h1>
                 </div>
         
             </div>
