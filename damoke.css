@@ -150,14 +150,6 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 1fr;
-  justify-items: center;
-}
-
-.wheel-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 1fr;
-  justify-items: center;
 }
 
 .portfolio-container .swiper-slide {
@@ -317,8 +309,8 @@ header {
 .project-header {
  background: linear-gradient(
       to top,
-      rgba(2, 55, 246, 0.2) 0%,
-      rgba(0, 0, 0, 0) 100%
+      rgba(0, 2, 10, 0.5) 100%,
+      rgba(0, 0, 0, 0) 0%
     ),
     url("public/project-picture.jpg");
   background-size: cover;
