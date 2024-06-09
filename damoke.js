@@ -21,10 +21,27 @@
     //     navbar.classList.toggle('navbar-sticky', window.scrollY > 0);
     // })
 
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".newServicesContainer", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        noSwiping: false,
+        grabCursor: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: true,
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+    var swiper = new Swiper(".portfolio-swipper", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
+        noSwiping: false,
         slidesPerView: "auto",
         loop: true,
         coverflowEffect: {
@@ -38,12 +55,35 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
-      });
+    });
 
 
-      document.getElementById('myForm').addEventListener('submit', function(e) {
+    document.getElementById('myForm').addEventListener('submit', function(e) {
         e.preventDefault()
         this.reset();
     });
     
-    
+    var textWrapper = document.querySelector(".hero-text");
+    textWrapper.innerHTML = textWrapper.textContent.replace(
+      /\S/g,
+      "<span class='letter'>$&</span>"
+    );
+
+    anime
+      .timeline({ loop: true })
+      .add({
+        targets: ".hero-text .letter",
+        scale: [4, 1],
+        opacity: [0, 1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 2000,
+        delay: (el, i) => 70 * i,
+      })
+      .add({
+        targets: ".hero-text",
+        opacity: 0,
+        duration: 2000,
+        easing: "easeOutExpo",
+        delay: 2000,
+      });
